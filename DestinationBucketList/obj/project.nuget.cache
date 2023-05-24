@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C2YE7o6EyieRDmDTa2MWKDcSzU3f2u2vvthMZJe1b7Q6o2YWMpButfBjYL/AgWe/+UrTUaB7Ggd9z7+DjdgJSA==",
+  "dgSpecHash": "cqnafUcvc/nUJJ1h0hu+IEABIqPM1OTrIkiRp238AgSlWw6zfHX7oL0uirmuIUb8F4rIeeHwaXR3OifswlBZYQ==",
   "success": true,
-  "projectFilePath": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketList.csproj",
+  "projectFilePath": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -4107,9 +4107,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketList.csproj",
-      "projectName": "DestinationBucketList",
-      "projectPath": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketList.csproj",
+      "projectUniqueName": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
+      "projectName": "DestinationBucketListAPI",
+      "projectPath": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
       "outputPath": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\obj\\",
       "projectStyle": "PackageReference",

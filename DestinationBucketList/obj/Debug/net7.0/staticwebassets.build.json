@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "EcrAHBpzglgELTwWNtW9wuUYaKpxOpjv0RCdxVsTg78=",
-  "Source": "DestinationBucketList",
-  "BasePath": "_content/DestinationBucketList",
+  "Hash": "r8OixzUtIQ8uH9lU7mbKGqveKsRkagEEulqJHY/A59Q=",
+  "Source": "DestinationBucketListAPI",
+  "BasePath": "_content/DestinationBucketListAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
