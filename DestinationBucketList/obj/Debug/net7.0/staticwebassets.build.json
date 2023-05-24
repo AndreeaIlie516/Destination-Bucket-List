@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EcrAHBpzglgELTwWNtW9wuUYaKpxOpjv0RCdxVsTg78=",
+  "Source": "DestinationBucketList",
+  "BasePath": "_content/DestinationBucketList",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
