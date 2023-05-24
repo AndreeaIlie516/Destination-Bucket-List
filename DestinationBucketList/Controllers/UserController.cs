@@ -53,6 +53,19 @@ namespace DestinationBucketListAPI.Controllers
             return tokenHandler.WriteToken(token);
         }
 
+        public static Tuple<long, AccessLevel>? ExtractJWTToken(ClaimsPrincipal claimsPrincipal)
+        {
+            var userIdClaim = claimsPrincipal.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null || !long.TryParse(userIdClaim.Value, out long userId))
+                return null;
+
+            var accessLevelClaim = claimsPrincipal.FindFirst(ClaimTypes.Role);
+            if (accessLevelClaim == null || !Enum.TryParse<AccessLevel>(accessLevelClaim.Value, out var userAccessLevel))
+                return null;
+
+            return new Tuple<long, AccessLevel>(userId, userAccessLevel);
+        }
+
         [HttpPost("register")]
         [AllowAnonymous]
         public async Task<ActionResult<Users>> Register(Users useradded)
