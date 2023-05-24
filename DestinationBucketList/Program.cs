@@ -7,39 +7,6 @@ using DestinationBucketList.Repository;
 using DestinationBucketList.Models;
 using System.Text.Json.Serialization;
 using System.Text;
-using Newtonsoft.Json;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc.Authorization;
-using Microsoft.EntityFrameworkCore;
-using System.Text.Json.Serialization;
-
-/*
-var builder = WebApplication.CreateBuilder(args);
-
-
-
-builder.Services.AddControllers();
-
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
-*/
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -57,7 +24,6 @@ builder.Services.AddCors(options =>
 
 });
 
-//builder.Services.AddHostedService<MPP.ExpiredConfirmationCodeCleanupService>();
 
 builder.Services.AddControllers(
     options =>

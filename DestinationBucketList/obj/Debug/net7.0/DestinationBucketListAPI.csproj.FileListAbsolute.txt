@@ -79,3 +79,5 @@ D:\UBB FMI\SEM 4\SE\Destination-Bucket-List\DestinationBucketList\obj\Debug\net7
 D:\UBB FMI\SEM 4\SE\Destination-Bucket-List\DestinationBucketList\obj\Debug\net7.0\DestinationBucketListAPI.pdb
 D:\UBB FMI\SEM 4\SE\Destination-Bucket-List\DestinationBucketList\obj\Debug\net7.0\DestinationBucketListAPI.genruntimeconfig.cache
 D:\UBB FMI\SEM 4\SE\Destination-Bucket-List\DestinationBucketList\obj\Debug\net7.0\ref\DestinationBucketListAPI.dll
+D:\UBB FMI\SEM 4\SE\Destination-Bucket-List\DestinationBucketList\bin\Debug\net7.0\NuGet.Common.dll
+D:\UBB FMI\SEM 4\SE\Destination-Bucket-List\DestinationBucketList\bin\Debug\net7.0\NuGet.Frameworks.dll

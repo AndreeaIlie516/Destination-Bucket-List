@@ -15,6 +15,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.5",
           "Newtonsoft.Json": "13.0.3",
+          "NuGet.Common": "6.6.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -465,6 +466,25 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.2.22727"
+          }
+        }
+      },
+      "NuGet.Common/6.6.0": {
+        "dependencies": {
+          "NuGet.Frameworks": "6.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Common.dll": {
+            "assemblyVersion": "6.6.0.62",
+            "fileVersion": "6.6.0.62"
+          }
+        }
+      },
+      "NuGet.Frameworks/6.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/NuGet.Frameworks.dll": {
+            "assemblyVersion": "6.6.0.62",
+            "fileVersion": "6.6.0.62"
           }
         }
       },
@@ -1060,6 +1080,20 @@
       "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "NuGet.Common/6.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NUBsjrTAKWD3WbxMeVYnT/OELRV8M6T0lIMZC26PVijOCsparqI8KrWQtRl6YT+FYgW4b7yPSusjBGYxop0jAg==",
+      "path": "nuget.common/6.6.0",
+      "hashPath": "nuget.common.6.6.0.nupkg.sha512"
+    },
+    "NuGet.Frameworks/6.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kgoOHa5bNq+X0nD8jsmYkctJz0jICSvaHxYGuROj4se3pYkkvQ2PjpyA7RMHuxN/TD3ueEWgSyoWBks8YA34vw==",
+      "path": "nuget.frameworks/6.6.0",
+      "hashPath": "nuget.frameworks.6.6.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.4.0": {
       "type": "package",
