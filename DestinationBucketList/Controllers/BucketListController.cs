@@ -109,6 +109,9 @@ namespace DestinationBucketListAPI.Controllers
 
             return await _dbContext.BucketList
                 .Include(x => x.Items)
+                    .ThenInclude(item => item.PublicDestination)
+                .Include(x => x.Items)
+                    .ThenInclude(item => item.PrivateDestination)
                 .Where(x => x.UserId == userId)
                 .ToListAsync();
         }
