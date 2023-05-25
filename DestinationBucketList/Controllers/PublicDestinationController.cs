@@ -78,7 +78,6 @@ namespace DestinationBucketListAPI.Controllers
                 return Unauthorized("!ERROR! You do not have permission to do this!");
             */
 
-            // Validation
             if (destination.Name.Length < 1 || destination.Geolocation.Length < 1 || destination.Image.Length < 1 || destination.Description.Length < 1)
                 return BadRequest("!ERROR! Invalid input");
 

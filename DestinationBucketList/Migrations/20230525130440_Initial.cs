@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace DestinationBucketList.Migrations
+namespace DestinationBucketListAPI.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration
@@ -95,8 +95,8 @@ namespace DestinationBucketList.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    PublicDestinationId = table.Column<int>(type: "int", nullable: false),
-                    PrivateDestinationId = table.Column<int>(type: "int", nullable: false),
+                    PublicDestinationId = table.Column<int>(type: "int", nullable: true),
+                    PrivateDestinationId = table.Column<int>(type: "int", nullable: true),
                     CheckIn = table.Column<DateTime>(type: "datetime2", nullable: false),
                     CheckOut = table.Column<DateTime>(type: "datetime2", nullable: false),
                     BucketListId = table.Column<int>(type: "int", nullable: true)

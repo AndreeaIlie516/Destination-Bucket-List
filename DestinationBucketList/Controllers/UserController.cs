@@ -70,6 +70,8 @@ namespace DestinationBucketListAPI.Controllers
         [AllowAnonymous]
         public async Task<ActionResult<Users>> Register(Users useradded)
         {
+            if (UsernameExists(useradded.Username) || EmailExists(useradded.Email))
+                return BadRequest("!ERROR! Username or Email already exists!");
 
             var user = new Users
             {
@@ -83,6 +85,18 @@ namespace DestinationBucketListAPI.Controllers
 
             _dbContext.Users.Add(user);
             await _dbContext.SaveChangesAsync();
+
+            var UserAdded = await _dbContext.Users.FirstOrDefaultAsync(u => u.Username == useradded.Username);
+            var userId = UserAdded.Id;
+
+            var bucketlist = new BucketList
+            {
+                UserId = userId,
+            };
+
+            _dbContext.BucketList.Add(bucketlist);
+            await _dbContext.SaveChangesAsync();
+
             return NoContent();
         }
 
@@ -170,6 +184,16 @@ namespace DestinationBucketListAPI.Controllers
             await _dbContext.SaveChangesAsync();
 
             return NoContent();
+        }
+
+        private bool UsernameExists(string username)
+        {
+            return (_dbContext.Users?.Any(b => b.Username == username)).GetValueOrDefault();
+        }
+
+        private bool EmailExists(string email)
+        {
+            return (_dbContext.Users?.Any(b => b.Email == email)).GetValueOrDefault();
         }
     }
 }

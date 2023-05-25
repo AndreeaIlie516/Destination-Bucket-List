@@ -9,10 +9,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace DestinationBucketList.Migrations
+namespace DestinationBucketListAPI.Migrations
 {
     [DbContext(typeof(BucketListDatabaseContext))]
-    [Migration("20230524191517_Initial")]
+    [Migration("20230525130440_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -62,11 +62,9 @@ namespace DestinationBucketList.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<int?>("PrivateDestinationId")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("PublicDestinationId")
-                        .IsRequired()
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -192,14 +190,12 @@ namespace DestinationBucketList.Migrations
                     b.HasOne("DestinationBucketList.Models.PrivateDestination", "PrivateDestination")
                         .WithMany()
                         .HasForeignKey("PrivateDestinationId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("DestinationBucketList.Models.PublicDestination", "PublicDestination")
                         .WithMany()
                         .HasForeignKey("PublicDestinationId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("PrivateDestination");
 
