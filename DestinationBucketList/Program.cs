@@ -16,7 +16,7 @@ builder.Services.AddCors(options =>
         policy =>
         {
             policy.WithOrigins(
-                
+                /*Add frontend URL here*/
             )
                 .AllowAnyHeader()
                 .AllowAnyMethod();
