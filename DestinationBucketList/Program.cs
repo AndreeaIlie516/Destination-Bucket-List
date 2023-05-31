@@ -16,7 +16,7 @@ builder.Services.AddCors(options =>
         policy =>
         {
             policy.WithOrigins(
-                
+                // link to the frontend application
             )
                 .AllowAnyHeader()
                 .AllowAnyMethod();
@@ -35,8 +35,7 @@ builder.Services.AddControllers(
     }
     )
     .AddJsonOptions(options => options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()))
-    .AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore)
-;
+    .AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
 var jwtSettingsSection = builder.Configuration.GetSection("JwtSettings");
 builder.Services.Configure<JwtSetter>(jwtSettingsSection);

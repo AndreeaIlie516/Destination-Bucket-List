@@ -29,6 +29,7 @@ namespace DestinationBucketListAPI.Controllers
             _dbContext = dbContext;
             _jwtSetter = JwtSetter.Value;
         }
+
         public static string HashPassword(string password)
         {
             byte[] hashBytes = SHA256.HashData(Encoding.UTF8.GetBytes(password));
