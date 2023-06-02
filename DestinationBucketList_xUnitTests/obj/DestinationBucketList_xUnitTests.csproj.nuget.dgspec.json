@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj": {}
+    "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj": {}
   },
   "projects": {
-    "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj": {
+    "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
+        "projectUniqueName": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
         "projectName": "DestinationBucketListAPI",
-        "projectPath": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\obj\\",
+        "projectPath": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
+        "packagesPath": "C:\\Users\\afkck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\afkck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -101,24 +103,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj": {
+    "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj",
         "projectName": "DestinationBucketList_xUnitTests",
-        "projectPath": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\obj\\",
+        "projectPath": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj",
+        "packagesPath": "C:\\Users\\afkck\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\afkck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -126,14 +129,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj": {
-                "projectPath": "D:\\UBB FMI\\SEM 4\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj"
+              "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj": {
+                "projectPath": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj"
               }
             }
           }
@@ -189,7 +193,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
