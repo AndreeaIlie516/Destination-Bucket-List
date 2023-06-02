@@ -8891,23 +8891,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\afkck\\.nuget\\packages\\": {},
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj",
+      "projectUniqueName": "D:\\Fuckulta_2.0_(Babes)\\An 2\\SE\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj",
       "projectName": "DestinationBucketList_xUnitTests",
-      "projectPath": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj",
-      "packagesPath": "C:\\Users\\afkck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\obj\\",
+      "projectPath": "D:\\Fuckulta_2.0_(Babes)\\An 2\\SE\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\DestinationBucketList_xUnitTests.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "D:\\Fuckulta_2.0_(Babes)\\An 2\\SE\\Destination-Bucket-List\\DestinationBucketList_xUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\afkck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8923,8 +8923,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj": {
-              "projectPath": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj"
+            "D:\\Fuckulta_2.0_(Babes)\\An 2\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj": {
+              "projectPath": "D:\\Fuckulta_2.0_(Babes)\\An 2\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj"
             }
           }
         }
@@ -8980,7 +8980,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

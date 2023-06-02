@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj": {}
+    "D:\\Fuckulta_2.0_(Babes)\\An 2\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj": {
+    "D:\\Fuckulta_2.0_(Babes)\\An 2\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
+        "projectUniqueName": "D:\\Fuckulta_2.0_(Babes)\\An 2\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
         "projectName": "DestinationBucketListAPI",
-        "projectPath": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
-        "packagesPath": "C:\\Users\\afkck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\afkck\\OneDrive\\Documents\\GitHub\\Destination-Bucket-List\\DestinationBucketList\\obj\\",
+        "projectPath": "D:\\Fuckulta_2.0_(Babes)\\An 2\\SE\\Destination-Bucket-List\\DestinationBucketList\\DestinationBucketListAPI.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "D:\\Fuckulta_2.0_(Babes)\\An 2\\SE\\Destination-Bucket-List\\DestinationBucketList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\afkck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

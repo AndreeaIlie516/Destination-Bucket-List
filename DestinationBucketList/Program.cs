@@ -60,7 +60,7 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddDbContext<BucketListDatabaseContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("AndreiConnection"), options => options.CommandTimeout(60)));
+builder.Services.AddDbContext<BucketListDatabaseContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("AndreeaConnection"), options => options.CommandTimeout(60)));
 
 //.UseLazyLoadingProxies()
 
