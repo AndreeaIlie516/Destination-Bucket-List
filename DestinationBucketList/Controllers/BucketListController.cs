@@ -57,8 +57,10 @@ namespace DestinationBucketListAPI.Controllers
                 return NotFound();
             }
             var dest = await _dbContext.BucketList
-                .Include(x => x.Items)     
+                .Include(x => x.Items)
                 .Include(x => x.User)
+                .Include("Items.PublicDestination")
+                .Include("Items.PrivateDestination")
                 .FirstOrDefaultAsync(x => x.Id == id);
 
             if (dest == null)
@@ -74,6 +76,8 @@ namespace DestinationBucketListAPI.Controllers
         public async Task<ActionResult<IEnumerable<BucketListItem>>> GetAllLists()
         {
             return await _dbContext.BucketListItems
+                .Include(x => x.PublicDestination)
+                .Include(x => x.PrivateDestination)
                 .ToListAsync();
         }
 
@@ -172,7 +176,7 @@ namespace DestinationBucketListAPI.Controllers
 
             _dbContext.BucketListItems.Add(blitem);
             await _dbContext.SaveChangesAsync();
-            return NoContent();
+            return new JsonResult(new { message = "Bucketlist item successfully added", item = blitem });
         }
 
         [HttpPost("{privateDestinationId}/PrivateDestinationBucketlistItem")]
@@ -195,7 +199,7 @@ namespace DestinationBucketListAPI.Controllers
 
             _dbContext.BucketListItems.Add(blitem);
             await _dbContext.SaveChangesAsync();
-            return NoContent();
+            return new JsonResult(new { message = "Bucketlist item successfully added", item = blitem });
         }
 
     }
