@@ -7,7 +7,7 @@ import background from '../view_background.jpeg'
 
 export default function GridTemplateAreas() {
   const imageUrl = process.env.PUBLIC_URL + '/view_background.jpeg'; 
-  
+  //console.log(localStorage.getItem(''))
   return (
     <Box
       sx={{
